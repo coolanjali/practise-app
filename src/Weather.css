@@ -1,0 +1,72 @@
+.container {
+    font-family: arial, sans-serif;
+    border: 1px solid #103360;
+    padding: 16px;
+    border-radius: 8px;
+    height: 400px;
+    width: 600;
+    border-width: medium;
+    margin-top: 30px;
+    background-color: rgb(223, 212, 195);
+}
+
+h2 {
+    text-align: left;
+}
+
+.formControl {
+    border: 1px solid blueviolet;
+    background-color: cadetblue;
+    border-radius: 8px;
+    text-align: left;
+    width: 400px;
+}
+
+.canvas {
+    position: relative;
+    top: -200px;
+    left: 150px;
+
+}
+
+.figure {
+    position: relative;
+    left: -200px;
+}
+
+.heading {
+    position: relative;
+    top: -200px;
+    right: -200px;
+    list-style: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+h3 {
+    font-size: auto;
+    font-weight: 50;
+    color: rgb(105, 105, 159);
+
+}
+footer{
+    position: fixed;
+    margin-top: 100px;
+    padding-top: 50px;
+    margin-left: 500px;
+    margin-top: -10px;
+}
+
+.temperatureMeasure {
+    position: relative;
+    top: -50px;
+    left: -400px;
+}
+
+.table {
+    position: relative;
+    top: -100px;
+}
+
