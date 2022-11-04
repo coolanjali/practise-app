@@ -118,7 +118,7 @@ export default function Weather() {
         <WeatherDay findDay={setcoord.coordinates}/>
         <footer>
           Open Source coded by Priyanka in{" "}
-          <a href="https://github.com/coolanjali/happy">Github</a>
+          <a href="https://github.com/coolanjali/practise-app">Github</a>
         </footer>
       </div>
     );
