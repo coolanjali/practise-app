@@ -4,10 +4,10 @@
     padding: 16px;
     border-radius: 8px;
     height: 400px;
-    width: 600;
+    width: 500;
     border-width: medium;
     margin-top: 30px;
-    background-color: rgb(223, 212, 195);
+    background-color: rgb(31, 233, 226);
 }
 
 h2 {
@@ -23,7 +23,7 @@ h2 {
 }
 
 .canvas {
-    position: relative;
+    position: fixed;
     top: -200px;
     left: 150px;
 
@@ -47,8 +47,10 @@ li {
 
 h3 {
     font-size: auto;
-    font-weight: 50;
-    color: rgb(105, 105, 159);
+    font-weight: 100;
+    color:black;
+    font-stretch: expanded;
+    margin-top: -200px;
 
 }
 footer{
@@ -56,17 +58,13 @@ footer{
     margin-top: 100px;
     padding-top: 50px;
     margin-left: 500px;
-    margin-top: -10px;
+    margin-top: -30px;
 }
 
 .temperatureMeasure {
-    position: relative;
-    top: -50px;
-    left: -400px;
-}
-
-.table {
-    position: relative;
-    top: -100px;
+    position: fixed;
+    top:180px;
+    left: 300px;
+    font-size: 30px;
 }
 

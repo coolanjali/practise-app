@@ -99,7 +99,7 @@ export default function Weather() {
           />
         </form>
         <figure className="figure">
-          <WeatherIcon source={icon.Icon} size={80} />
+          <WeatherIcon code={icon.Icon} size={80} />
           <figcaption className="figure-caption">
             <Forecastday findDay={date.findDate}/>
           </figcaption>
